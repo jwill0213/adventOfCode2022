@@ -1,3 +1,5 @@
+package template
+
 import java.io.File
 
 fun part1(input: List<String>) {
