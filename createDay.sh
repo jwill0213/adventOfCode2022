@@ -13,9 +13,9 @@ mkdir -p ./src/main/kotlin/
 
 cp -R ./template ./src/main/kotlin/day_"$DAY"
 
-sed -i "s/package template/package day_$DAY/" "./src/main/kotlin/day_$DAY/Main.kt"
+sed -i "s/package template/package day_$DAY/; s/--day--/day_$DAY/" "./src/main/kotlin/day_$DAY/Main.kt"
 
-sed -i "s/--day--/day_$DAY/" "./src/main/kotlin/day_$DAY/Main.kt"
+curl --cookie "session=$AOC_COOKIE" https://adventofcode.com/2022/day/"$PROVIDED_DAY"/input > ./src/main/kotlin/day_"$DAY"/input.txt
 
 printf "# Advent Of Code 2022 Day %s: %s\n\n## Part 1\nTBD\n\n---\n## Part 2\nTBD" "$DAY" "$TITLE" > ./src/main/kotlin/day_"$DAY"/README.md
 
