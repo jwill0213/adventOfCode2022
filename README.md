@@ -9,3 +9,5 @@ There are my solutions for [Advent of Code 2022](https://adventofcode.com/2022/)
 [**Day 3: Rucksack Reorganization**](/src/main/kotlin/day_03/) - [AdventOfCode](https://adventofcode.com/2022/day/3)
 
 [**Day 4: Camp Cleanup**](/src/main/kotlin/day_04/) - [AdventOfCode](https://adventofcode.com/2022/day/4)
+
+[**Day 5: Supply Stacks**](/src/main/kotlin/day_05/) - [AdventOfCode](https://adventofcode.com/2022/day/5)
