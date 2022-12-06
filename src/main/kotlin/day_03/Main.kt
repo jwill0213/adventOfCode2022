@@ -6,7 +6,7 @@ val ITEM_VAL = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 fun part1(input: List<String>) {
     var result = 0
-    for(rucksack in input) {
+    for (rucksack in input) {
         val halfSize = rucksack.length / 2
         val c1 = rucksack.subSequence(0, halfSize)
         val c2 = rucksack.subSequence(halfSize, rucksack.length)
@@ -36,7 +36,7 @@ fun part2(input: List<String>) {
     print("Sum of common items: $result")
 }
 
-fun main(){
+fun main() {
     val inputFile = File("src/main/kotlin/day_03/input.txt")
     print("\n----- Part 1 -----\n")
     part1(inputFile.readLines())

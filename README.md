@@ -11,3 +11,5 @@ There are my solutions for [Advent of Code 2022](https://adventofcode.com/2022/)
 [**Day 4: Camp Cleanup**](/src/main/kotlin/day_04/) - [AdventOfCode](https://adventofcode.com/2022/day/4)
 
 [**Day 5: Supply Stacks**](/src/main/kotlin/day_05/) - [AdventOfCode](https://adventofcode.com/2022/day/5)
+
+[**Day 6: Tuning Trouble**](/src/main/kotlin/day_06/) - [AdventOfCode](https://adventofcode.com/2022/day/6)
