@@ -15,3 +15,5 @@ There are my solutions for [Advent of Code 2022](https://adventofcode.com/2022/)
 [**Day 6: Tuning Trouble**](/src/main/kotlin/day_06/) - [AdventOfCode](https://adventofcode.com/2022/day/6)
 
 [**Day 7: No Space Left On Device**](/src/main/kotlin/day_07/) - [AdventOfCode](https://adventofcode.com/2022/day/7)
+
+[**Day 8: Treetop Tree House**](/src/main/kotlin/day_08/) - [AdventOfCode](https://adventofcode.com/2022/day/8)
